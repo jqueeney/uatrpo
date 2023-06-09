@@ -1,2 +1,2 @@
-# uatrpo
-Uncertainty-Aware Trust Region Policy Optimization (UA-TRPO)
+# Uncertainty-Aware Trust Region Policy Optimization
+Coming soon!
