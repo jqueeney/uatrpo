@@ -1,0 +1,41 @@
+name: uatrpo
+channels:
+  - gurobi
+  - http://conda.anaconda.org/gurobi
+  - conda-forge
+  - nvidia
+  - defaults 
+dependencies:
+  - cudatoolkit>=11.1
+  - cudnn
+  - nccl  
+  - gurobi
+  - matplotlib
+  - numpy
+  - pip
+  - python>=3.8.5,<3.9
+  - scipy
+  - seaborn
+  - tensorflow-gpu
+  - lockfile
+  - absl-py
+  - dm-env
+  - dm-tree
+  - future
+  - glfw
+  - h5py
+  - lxml
+  - mock
+  - nose
+  - pillow
+  - protobuf
+  - pyopengl
+  - pyparsing
+  - requests
+  - setuptools!=50.0.0
+  - tqdm
+  - jupyter=1.0.0
+  - gym==0.21.0
+  - pip:
+    - dm-control==1.0.0
+    - mujoco-py==1.50.1.68
